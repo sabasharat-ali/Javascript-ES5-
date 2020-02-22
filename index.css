@@ -1,0 +1,42 @@
+/* Changing the bullet style */
+ul
+{
+    list-style-type:square;
+}
+/* Changing the bullet style in ordered listing */
+ ol
+{
+    list-style-type: upper-alpha;
+    list-style-position: inside;
+} 
+
+/* Providing a bullet style through link */
+/* ol
+{
+    list-style-image: url("");
+} */
+
+th
+{
+    border-bottom: 30px blue solid;
+    text-transform: uppercase;
+}
+table
+{
+    font-size: 50px;
+    width:300px;
+    border-collapse: collapse;
+    /* border-spacing: 20px; */
+}
+td
+{
+    padding-left: 100px;
+    /* text-align: right; */
+    background-color:lightblue;
+    /* What to do when a cell is empty */
+    empty-cells: hide;
+}
+td:hover
+{
+    background-color: lightpink;
+}

@@ -1,0 +1,11 @@
+.box
+{
+    border: darkmagenta solid;
+    height: 100%;
+    width: 300%;
+}
+.box > p
+{
+    background-color:lightblue;
+    width: 100%;
+}

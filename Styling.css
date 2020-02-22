@@ -1,0 +1,49 @@
+/* TO LINK THIS WITH ANY FILE */
+p, h4,h5{
+    color: brown;
+}
+
+/* USING UNIVERSAL TAG THAT WILL SELECT EVERYTHING */
+/* UNIVERSAL SELECTOR */
+*{
+    color: cyan;
+}
+
+/* TYPE SELECTOR */
+h1{
+    color: darkblue;
+}
+
+/* CLASS SELECTOR */
+.yell{
+    color: darkgoldenrod;
+    font: 100px;
+}
+
+/* ID SELECTOR */
+#heading{
+    color: darkgoldenrod;
+}
+
+/* CHILD SELECTOR */
+li>a{
+    color: darkred;
+}
+
+/* DESCENDANT SELECTOR */
+p a{
+    color:dimgray;
+    font:100px;
+}
+
+/* ADJACENT SIBLING SELECTOR */
+h1+p{
+    color: indigo;
+}
+
+/* GENERAL SIBLING SELECTOR */
+h1~p{
+    color:mediumvioletred
+}
+
+/* The last tag will have the precidence */

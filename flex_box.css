@@ -1,0 +1,26 @@
+/* THE IMMEDIATE NEXT LINE IS MAKING THE FLEX BOX */
+.flex_container
+{
+    display: flex;
+    background-color: chartreuse;
+    /* flex-direction: column-reverse; */
+    align-items: center;    
+    flex-wrap: wrap;
+    /* FLEX WRAP DOESNT LET THE CONTENTS TO GO OUTSIDE OF THE PAGE, IT ADJUSTS THEM ACCORDINGLY */
+    /* justify-content: flex-start; */
+}
+/* SPAN IS ARRANGING ITSELF ACCORDING TO ITS PARENT DIV */
+/* WHEN YOU CHANGE THE FLEX DIRECTION, IT WILL ARRANGE THE TEXT ACCORDING TO THE AXIS MENTIONED */
+.flex_container > span
+{
+    background-color: cadetblue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+/* FLEX BOX ARRANGES ITSELF ACCORDING TO THE SCREEN */
+/* FLEX ONLY WORKS ON THE IMMEDIATE CHILD */

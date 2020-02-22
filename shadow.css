@@ -1,0 +1,74 @@
+p.one{
+    background-color: cadetblue;
+    color: blue
+    text-shadow: 1px 1px 0px blueviolet
+
+    /* text shadow: [denotes right or left shadow of the text]
+    [second denotes top and botton shadow of the text]
+    [third denotes blurence and is optional] */
+}
+
+/* SUDO ELEMENTS */
+/* Applying styling to the first letters */
+/* .intro:first-letter
+    font-size: 300%;
+    font-weight: bold; */
+    
+    /* LINK STYLING */
+    a
+        {
+            color:chartreuse;
+            text-decoration: none;
+        }
+    /* a:hover */
+        /* {
+            color: darkblue;
+            background-color: red;
+            text-decoration: none;
+        } */
+
+        /* Active gives functionality when we click on the link */
+    .youtube:active
+    {
+        background-color: royalblue;
+    }
+
+    /* WHEN YOU VISIT THE SAME LINK SECOND TIME IT WILL CHANGE THE COLOR */
+    .google:visited
+    {
+        color:sienna
+    }
+   
+    
+    .text
+    {
+        /* padding is used to change the size of text box */
+        padding: 6px 12px 6px 12px;
+        /* [TOP] [RIGHT] [BOTTOM] [LEFT] */
+        border: 1px red dotted;
+        /* px is telling the size of the border */
+        color:yellow;
+        background-color: violet;
+        text-decoration: none;
+         
+        
+    }
+    .text:focus{
+        /* Focus is the environment created when you select 
+        that input field and do work in it */
+        color: darkmagenta;
+    }
+    .text:active
+    {
+        background-color: crimson;
+    }
+    /* To change the colour of place holder */
+    .text::placeholder
+    {
+        color: turquoise;
+    }
+    .button
+    {
+        background-color:brown;
+        cursor: pointer;
+    }

@@ -1,0 +1,15 @@
+.header
+{
+    /* left:178px;
+	top:20px;
+	font-family:verdana;
+	font-size:20px;
+	color:#142170; */
+	height:75px;
+	width:550px;
+	background-color: rgba(1, 105, 1, 0.5)
+}
+#hello
+{
+	line-height: 0em;
+}
